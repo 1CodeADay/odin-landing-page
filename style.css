@@ -161,6 +161,10 @@ button {
 .quote-section {
     background-color: #E5E7EB;   
     padding: 100px 410px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 
 .quote-text {
@@ -169,13 +173,20 @@ button {
     color: #1f2937;
     margin-bottom: 16px;
     font-style: italic;
+    min-width: 600px;
+    
 }
 
 .author {
+    margin-top: 20px;
     font-size: 36px;
     font-weight: bold;
-    text-align: end;
-    padding-right: 46px;
+    align-self: self-end;
+    padding-right: 52px;
+    flex-shrink: 0;
+    
+
+    
 }
 
 /* Styling section 3: CALL TO ACTION */
